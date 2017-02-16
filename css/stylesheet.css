@@ -1,0 +1,11 @@
+.mainBackground{
+  /*background-color: #cccccc;*/
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  height: 350px;
+  background-position: right;
+}
+.long{
+  width: 100%;
+  padding-left: 7%;
+}

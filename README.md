@@ -17,7 +17,7 @@ More specifically, the page should allow a user to do the following.
 1. Read the copyright information in the footer.
 
 Here's the marketing copy for the landing page.
-
+`
 > Shop Online
 >
 > Using our convenient web app, you'll get all the power of gFood without having to call your order in. Order in your pajamas, order 24 hours a day, order on Christmas, we're here to serve you.
