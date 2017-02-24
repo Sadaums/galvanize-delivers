@@ -30,7 +30,7 @@ Here's the marketing copy for the landing page.
 >
 > Money: You've got it, we want it. But let it never be said we're not incredibly fair! Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check! We seriously can't stop making deals.
 
-**TIP:** The shopping, shipping, and ATM icons are [Material Icons](https://design.google.com/icons/).
+  **TIP:** The shopping, shipping, and ATM icons are [Material Icons](https://design.google.com/icons/).
 
 ## The ordering page
 

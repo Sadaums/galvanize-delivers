@@ -1,15 +1,147 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script defer src="js/jquery.js"></script>
+    <script defer src="js/sickJS.js"></script>
     <meta charset="utf-8">
-    <title>Galvanize Delivers</title>
-  </head>
-  <header>
-    <nav>
-
+    <title>Galvanize Delivers Home</title>
+</head>
+<header>
+    <nav class="light-blue darken-3" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Galvanize Delivers</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="order.html">Order Delivery</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+                <li><a href="#">Order Delivery</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
     </nav>
-  </header>
-  <body>
+</header>
 
-  </body>
+<body>
+    <div>
+        <div class="row">
+            <div class="col s8">
+                <!--this one is the 2/3 div-->
+                <!--Row1 colum1-->
+
+                <div class="col s6 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/burger.jpg">
+                            <span class="card-title spicyText"><strong>Tiny Clay Hamburger</strong>
+                                    <p>$79.99</p></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light light-blue darken-4 "><i class="material-icons buttonsBurger">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Perfect for a photoshoot in which you are a giant eating a tiny meal. Holding this item makes your hands look massive! Talk about detail! Each burger comes with fries, and both are hand made. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Row1 colum2-->
+
+                <div class="col s6 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/ice_cream.jpg">
+                            <span class="card-title spicyText"><strong>Insulation in Cardboard</strong>
+                                    <p>-$5</p></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light light-blue darken-4"><i class="material-icons buttonsSandwich">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>I found this insulation in my mom's unfinshed basement, and James from next door shot this cardboard with his new BB gun. Betcha $5 you wont eat this.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/pizza.jpg">
+                            <span class="card-title spicyText"><strong>Salad on Bread</strong>
+                          <p>$8.99</p></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light light-blue darken-4 "><i class="material-icons buttonsPizza">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Salad on top of a pita. No sauce. No vegtables. No meat. You should proably order something else. The ingredients aren't even fresh, we buy them once a week from a distributer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/ribs.jpg">
+                            <span class="card-title spicyText"><strong>#PROTEIN</strong>
+                          <p>$14.99</p></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light light-blue darken-4 "><i class="material-icons buttonsRibs">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN PROTIEN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <table class="striped">
+                    <thead>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Price</th>
+                            <th>Tax</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tableBody">
+
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td><strong>TOTAL</strong></td>
+                        <td></td>
+                        <td></td>
+                        <td id="total"></td>
+                      </tr>
+                    </tfoot>
+                </table>
+                <textarea default name="Special Instructions" rows="8" cols="80" placeholder="Special Instructions"></textarea>
+                <button class="btn waves-effect waves-light light-blue darken-4" type="submit" name="action">ORDER NOW
+               <i class="material-icons right">send</i>
+             </button>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer light-blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Galvanize Delivers</h5>
+                    <p class="grey-text text-lighten-4">Fine Dining, Delivered</p>
+                </div>
+                <div class="col l6 s12">
+                    <ul>
+                        <li><a class="white-text" href="index.html">Home</a></li>
+                        <li><a class="white-text" href="order.html">Order Delivery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="input-field col s12">
+            <div class="footer-copyright light-blue darken-4">
+                <div class="container">
+                    &#x24B8; 2017 Galvanize Delivers</a>
+                </div>
+            </div>
+    </footer>
+</body>
+
 </html>

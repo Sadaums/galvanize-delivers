@@ -9,3 +9,7 @@
   width: 100%;
   padding-left: 7%;
 }
+.spicyText{
+  color: white;
+  text-shadow: 0px 0px 2px #000000;
+}
